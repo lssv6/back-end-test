@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "back-end-test"
+version = "0.1.0"
+description = ""
+authors = ["Lucas Sousa Silva <lucassousasilva@yahoo.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+flask = "^3.0.3"
+sqlalchemy = "^2.0.30"
+phonenumbers = "^8.13.38"
+flask-sqlalchemy = "^3.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
