@@ -10,6 +10,7 @@ python = "^3.12"
 flask = "^3.0.3"
 sqlalchemy = "^2.0.30"
 phonenumbers = "^8.13.38"
+flask-sqlalchemy = "^3.1.1"
 
 
 [build-system]
